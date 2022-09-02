@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description"
+        content=""/>
+  <title>А. Ростов</title>
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css"/>
+  <script src="https://kit.fontawesome.com/4bf48f78b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Header -->
+<header class="header" id="header">
+  <nav class="nav container">
+    <a href="#home" class="nav_logo">Главная</a>
+
+    <div class="nav_menu" id="nav-menu">
+      <ul class="nav_list grid">
+        <!--        <li class="nav_item">-->
+        <!--          <a href="#home" class="nav_link active-link">-->
+        <!--            <i class="uil uil-estate nav_icon"></i> Главная-->
+        <!--          </a>-->
+        <!--        </li>-->
+        <li class="nav_item">
+          <a href="#about" class="nav_link">
+            <i class="uil uil-user nav_icon"></i> Обо мне
+          </a>
+        </li>
+        <li class="nav_item">
+          <a href="#skills" class="nav_link">
+            <i class="uil uil-file-alt nav_icon"></i> Навыки
+          </a>
+        </li>
+        <li class="nav_item">
+          <a href="#projects" class="nav_link">
+            <i class="uil uil-scenery nav_icon"></i> Проекты
+          </a>
+        </li>
+        <li class="nav_item">
+          <a href="#contact" class="nav_link">
+            <i class="uil uil-message nav-icon nav_icon"></i> Связаться со мной
+          </a>
+        </li>
+      </ul>
+      <i class="uil uil-times nav_close" id="nav-close"></i>
+    </div>
+
+    <div class="nav_btns">
+      <!-- Change Theme -->
+      <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+      <div class="nav_toggle" id="nav-toggle">
+        <i class="uil uil-apps"></i>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Main -->
+<main class="main">
+  <!-- Home -->
+  <section class="home section" id="home">
+    <div class="home_container container grid">
+      <div class="home_content grid">
+        <div class="home_social">
+          <a href="mailto:alexandr.rostow@gmail.com" class="home_social-icon" target="_blank">
+            <i class="uil uil-envelope-alt"></i>
+          </a>
+
+          <a href="https://github.com/vegvisir46" class="home_social-icon" target="_blank">
+            <i class="uil uil-github-alt"></i>
+          </a>
+
+          <a href="https://t.me/v3g_r/" class="home_social-icon" target="_blank">
+            <i class="uil uil-telegram-alt"></i>
+          </a>
+
+        </div>
+
+        <div class="home_img">
+          <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink">
+            <mask id="mask0" mask-type="alpha">
+              <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+            </mask>
+            <g mask="url(#mask0)">
+              <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                      -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+              <image class="home_blob-img" x="12" y="8" href="./assets/img/icon.png"/>
+            </g>
+          </svg>
+        </div>
+
+        <div class="home_data">
+          <h1 class="home_title">Привет, <br>Я Ростов Александр</h1>
+          <h3 class="home_subtitle">Я <span class="type"></span>фронтенд разработчик</h3>
+
+          <a href="#contact" class="button button--flex">
+            Связаться со мной
+            <i class="uil uil-message"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="home_scroll">
+        <a href="#about" class="home_scroll-button button--flex">
+          <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+          <span class="home_scroll-name"></span>
+          <i class="uil uil-arrow-down home_scroll-arrow"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <h2 class="section_title">Обо мне</h2><br>
+    <div class="about_container container grid">
+      <img src="./assets/images/Al_Ro.JPG" alt="" class="about_img"/>
+      <div class="about_data">
+        <p class="about_description">
+          Привет! 👋 Меня зовут Саша, я начинающий фронтенд-разработчик.
+        </p>
+        <div class="about_button">
+          <a download="" href="./Al_Ro_CV.pdf" class="button button--flex" target="_blank">
+            Скачать мое резюме<i class="uil uil-file-download-alt button_icon"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills section" id="skills">
+    <h1 class="section_title">Навыки</h1><br>
+
+    <div class="info__skills skills">
+      <ul class="skills__list">
+        <li class="skills__item">
+          <div class="skills__logo">
+            <img src="img/icons/html.svg" alt="">
+          </div>
+          <div class="skills__title">HTML</div>
+        </li>
+        <li class="skills__item">
+          <div class="skills__logo">
+            <img src="img/icons/css.svg" alt="">
+          </div>
+          <div class="skills__title">CSS</div>
+        </li>
+        <li class="skills__item">
+          <div class="skills__logo">
+            <img src="img/icons/sass.svg" alt="">
+          </div>
+          <div class="skills__title">SASS</div>
+        </li>
+        <li class="skills__item">
+          <div class="skills__logo">
+            <img src="img/icons/js.svg" alt="">
+          </div>
+          <div class="skills__title">Vanilla Javascript</div>
+        </li>
+        <li class="skills__item">
+          <div class="skills__logo">
+            <img src="img/icons/react.svg" alt="">
+          </div>
+          <div class="skills__title">React</div>
+        </li>
+        <li class="skills__item">
+          <div class="skills__logo">
+            <img src="img/icons/redux.svg" alt="">
+          </div>
+          <div class="skills__title">Redux</div>
+        </li>
+        <li class="skills__item">
+          <div class="skills__logo">
+            <img src="img/icons/ts.png" alt="">
+          </div>
+          <div class="skills__title">Typescript</div>
+        </li>
+        <li class="skills__item">
+          <div class="skills__logo">
+            <img src="img/icons/rest-api.svg" alt="">
+          </div>
+          <div class="skills__title">REST API</div>
+        </li>
+        <li class="skills__item">
+          <div class="skills__logo">
+            <img src="img/icons/yarn.png" alt="">
+          </div>
+          <div class="skills__title">Yarn</div>
+        </li>
+        <li class="skills__item">
+          <div class="skills__logo">
+            <img src="img/icons/git.svg" alt="">
+          </div>
+          <div class="skills__title">GIT</div>
+        </li>
+        <li class="skills__item">
+          <div class="skills__logo">
+            <picture>
+              <source srcset="img/icons/ws.png" type="image/webp">
+              <img src="img/icons/vsc.png" alt=""></picture>
+          </div>
+          <div class="skills__title">WebStorm</div>
+        </li>
+        <li class="skills__item">
+          <div class="skills__logo">
+            <picture>
+              <source srcset="img/icons/vsc.webp" type="image/webp">
+              <img src="img/icons/vsc.png" alt=""></picture>
+          </div>
+          <div class="skills__title">Visual Studio Code</div>
+        </li>
+        <li class="skills__item">
+          <div class="skills__logo">
+            <picture>
+              <source srcset="img/icons/figma.webp" type="image/webp">
+              <img src="img/icons/figma.png" alt=""></picture>
+          </div>
+          <div class="skills__title">Figma</div>
+        </li>
+        <li class="skills__item">
+          <div class="skills__logo">
+            <img src="img/icons/mui.png" alt="">
+          </div>
+          <div class="skills__title">Material UI</div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio section" id="projects">
+    <h2 class="section_title">Проекты</h2><br><br>
+
+    <div class="portfolio_container container swiper-container swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <!-- Project 1 -->
+        <div class="portfolio_content grid swiper-slide">
+          <img src="./assets/images/todo-list-ts.png" alt="" class="portfolio_img">
+
+          <div class="portfolio_data">
+            <h3 class="portfolio_title">
+              Todo List
+            </h3>
+            <p class="portfolio_description">
+              Список дел, реализованный на React + TypeScript <br>Демонстрация создания CRUD-приложения
+            </p>
+            <a href="https://vegvisir46.github.io/react-ts-todo_08/" class="button button-flex button-small portfolio_button"
+               target="_blank">
+              Просмотр
+              <i class="uil uil-arrow-right button_icon"></i>
+            </a>
+            <a href="https://github.com/vegvisir46/react-ts-todo_08" class="button button-flex button-small portfolio_button"
+               target="_blank">
+              Исходники
+              <i class="uil uil-arrow-right button_icon"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio_content grid swiper-slide">
+          <img src="./assets/images/calendar.png" alt="" class="portfolio_img">
+
+          <div class="portfolio_data">
+            <h3 class="portfolio_title">
+              Календарь
+            </h3>
+            <p class="portfolio_description">
+              Интерактивный календарь, реализованный на React + TypeScript.
+            </p>
+            <a href="https://vegvisir46.github.io/react-ts-todo_08/" class="button button-flex button-small portfolio_button"
+               target="_blank">
+              Просмотр
+              <i class="uil uil-arrow-right button_icon"></i>
+            </a>
+            <a href="https://github.com/vegvisir46/react-ts-todo_08" class="button button-flex button-small portfolio_button"
+               target="_blank">
+              Исходники
+              <i class="uil uil-arrow-right button_icon"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="portfolio_content grid swiper-slide">
+          <img src="./assets/images/shorten.png" alt="" class="portfolio_img">
+
+          <div class="portfolio_data">
+            <h3 class="portfolio_title">
+              NoTab Lending
+            </h3>
+            <p class="portfolio_description">
+              Лендинг приложения, реализованный на HTML+CSS
+            </p>
+            <a href="https://github.com/derpmagician/shorten" class="button button-flex button-small portfolio_button"
+               target="_blank">
+              Check out
+              <i class="uil uil-arrow-right button_icon"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Arrows -->
+      <div class="swiper-button-next">
+        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+      </div>
+      <div class="swiper-button-prev">
+        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+      </div>
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- Contact Me -->
+  <section class="contact section" id="contact">
+    <h1 class="section_title">Связаться со мной</h1><br><br>
+
+    <div class="contact_container container grid">
+      <div>
+        <a href="mailto:alexandr.rostow@gmail.com" target="_blank">
+          <div class="contact_info">
+            <i class="uil uil-envelope-alt contact_icon"></i>
+            <div>
+              <h3 class="contact_title">Email</h3>
+              <span class="contact_subtitle">alexandr.rostow@gmail.com</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/vegvisir46" target="_blank">
+          <div class="contact_info">
+            <i class="uil uil-github-alt contact_icon"></i>
+            <div>
+              <h3 class="contact_title">GitHub</h3>
+              <span class="contact_subtitle">vegvisir46</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://t.me/v3g_r" target="_blank">
+          <div class="contact_info">
+            <i class="uil uil-telegram-alt contact_icon"></i>
+            <div>
+              <h3 class="contact_title">Telegram</h3>
+              <span class="contact_subtitle">@v3g_r</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.google.com/maps/place/%D0%A2%D0%BE%D0%BC%D1%81%D0%BA,+%D0%A2%D0%BE%D0%BC%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB./@56.4895329,85.008631,11z/data=!3m1!4b1!4m5!3m4!1s0x432693b2b65d4c1b:0xcf0bf11d988ae72f!8m2!3d56.4884295!4d84.9480469"
+           target="_blank">
+          <div class="contact_info">
+            <i class="uil uil-location-point contact_icon"></i>
+            <div>
+              <h3 class="contact_title">Город</h3>
+              <span class="contact_subtitle">Томск, Россия</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <form action="https://formspree.io/f/meqnpkgg" class="contact_form grid" id="contact-form" method="POST">
+        <div id="alert" class="alert_style"></div>
+        <div class="contact_inputs grid">
+          <div class="contact_content">
+            <label class="contact_label">Имя</label>
+            <input type="text" name="name" class="contact_input" id="name" required>
+          </div>
+          <div class="contact_content">
+            <label for="email" class="contact_label">Email</label>
+            <input type="email" name="email" class="contact_input" id="email" required>
+          </div>
+        </div>
+        <div class="contact_content">
+          <label for="subject" class="contact_label">Тема</label>
+          <input type="text" name="subject" class="contact_input" id="subject" required>
+        </div>
+        <div class="contact_content">
+          <label for="message" class="contact_label">Сообщение</label>
+          <textarea name="message" id="" cols="0" rows="7" class="contact_input message" id="message"
+                    required></textarea>
+        </div>
+
+        <div>
+          <button type="submit" class="button button-flex">
+            Отправить
+            <i class="uil uil-message button_icon"></i>
+          </button>
+        </div>
+      </form>
+
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer_bg">
+    <div class="footer_container container grid">
+      <div>
+        <h1 class="footer_title">Александр Ростов</h1>
+        <span class="footer_subtitle">Начинающий фронтенд разработчик</span>
+      </div>
+
+      <ul class="footer_links">
+        <li>
+          <a href="#about" class="footer_link">Обо мне</a>
+        </li>
+        <li>
+          <a href="#projects" class="footer_link">Проекты</a>
+        </li>
+      </ul>
+
+      <div class="footer_socials">
+        <a href="mailto:alexandr.rostow@gmail.com" target="_blank" class="footer_social">
+          <i class="uil uil-envelope-alt"></i>
+        </a>
+        <a href="https://github.com/vegvisir46" target="_blank" class="footer_social">
+          <i class="uil uil-github-alt"></i>
+        </a>
+        <a href="https://t.me/v3g_r" target="_blank" class="footer_social">
+          <i class="uil uil-telegram-alt"></i>
+        </a>
+
+      </div>
+    </div>
+
+    <p class="footer_copy">&#169; Александр Ростов. All rights reserved</p>
+  </div>
+</footer>
+
+<!-- Scroll Top -->
+<a href="#" class="scrollup" id="scroll-up">
+  <i class="uil uil-arrow-up scrollup_icon"></i>
+</a>
+
+<!-- Swiper JS -->
+<script src="./assets/js/swiper-bundle.min.js"></script>
+
+<!-- Typed JS -->
+<script src="./assets/js/typed.js"></script>
+
+<script src="./assets/js/main.js"></script>
+</body>
+</html>
