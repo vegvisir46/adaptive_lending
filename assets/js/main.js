@@ -90,7 +90,7 @@ let swiper = new Swiper(".mySwiper", {
   },
   mousewheel: true,
   keyboard: true,
-  slidesPerView: 2,
+  slidesPerView: 1,
 });
 
 // SCROLL SECTIONS ACTIVE LINK

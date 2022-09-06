@@ -357,6 +357,7 @@ button {
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
   margin-bottom: 1rem;
+  margin-right: 1rem;
 }
 
 .button:hover {
