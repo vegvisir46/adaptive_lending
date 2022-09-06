@@ -585,7 +585,7 @@ button {
 .swiper-button-next::after {
   content: "";
 }
-
+/*  */
 .swiper-portfolio-icon {
   font-size: 2rem;
   color: var(--first-color);
