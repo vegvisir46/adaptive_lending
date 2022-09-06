@@ -903,8 +903,14 @@ button {
     margin: 0;
   }
 
+  @keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
   .home_container {
     row-gap: 5rem;
+    animation: ani .9s ease-in;
   }
 
   .home_content {
